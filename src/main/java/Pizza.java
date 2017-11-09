@@ -4,10 +4,11 @@ import java.util.List;
 public class Pizza {
     List<Ingredient> ingredients = new ArrayList<>();
 
-    public Pizza(List<Ingredient> l)
-    {
+    public Pizza(List<Ingredient> l) {
         ingredients = l;
     }
 
-    public Pizza()
+    public Pizza() {
+
+    }
 }
