@@ -26,4 +26,9 @@ public class Pizza implements Eatable {
             p += ingredient.getPrice();
         return p;
     }
+
+    @Override
+    public String getName() {
+        return name;
+    }
 }
